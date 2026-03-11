@@ -1,0 +1,125 @@
+body{
+    background-color: #adbbda;
+}
+
+#heading{
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+}
+
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 190px;
+    width: 900px;
+    position: absolute;
+    top: 16%;
+    left:18%;
+}
+
+img{
+    border-radius: 25px;
+    height:170px;
+    width:170px;
+}
+
+img:hover{
+    border: 5px solid #70916e;
+    box-shadow: 0 0 17px #3d52a0;
+    cursor:pointer;
+}
+
+.score-board{
+    position: absolute;
+    top: 50%;
+    left:40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+#msg-container{
+    position: absolute;
+    top: 70%;
+    left:27%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    width: 650px;
+    border-radius: 20px;
+}
+
+#userscr, #computerscr{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Responsive Design */
+@media (max-width:470px) {
+    #heading{
+        font-size: small;
+        height: 50px;
+        width: 370px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+    }
+
+    img{
+        border-radius: 25px;
+        height:130px;
+        width:130px;
+    }
+
+    #container {
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-evenly;
+        height: 50%;
+        width: 80%;
+        position: absolute;
+        top: 7%;
+        left: 36%;
+    }
+
+    .score-board{
+        position: absolute;
+        top: 57%;
+        left:33%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 40px;
+        font-size: 25px;
+    }
+
+    #msg-container{
+        position: absolute;
+        top: 70%;
+        left:1%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        width: 390px;
+        border-radius: 20px;
+    }
+}
