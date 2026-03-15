@@ -72,15 +72,6 @@ https://api.frankfurter.app/latest?amount=100&from=USD&to=INR
 
 ---
 
-## 📸 Screenshot
-
-You can add a screenshot here later.
-
-```
-![App Screenshot](screenshot.png)
-```
-
----
 
 ## ▶️ How to Run the Project
 
