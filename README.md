@@ -27,15 +27,16 @@ It allows users to convert currencies in real time using the **Frankfurter Excha
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-currency-converter-project
+.
+├── currency converter project/
+│   ├── index.html      # Main HTML file
+│   ├── style.css       # Styling and layout
+│   └── app.js          # JavaScript logic and API handling
 │
-├── index.html      # Main HTML file
-├── style.css       # Styling
-├── app.js          # JavaScript logic
-└── README.md       # Project documentation
+└── README.md           # Project documentation
 ```
 
 ---
