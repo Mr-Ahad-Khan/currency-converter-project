@@ -58,19 +58,35 @@ Example:
 
 ## 🌐 API Used
 
-Frankfurter Exchange Rate API
+This project uses the **Frankfurter Exchange Rate API** to fetch real-time currency exchange rates.
+
+**Base URL**
 
 ```
 https://api.frankfurter.app
 ```
 
-Example Request:
+**Example API Request**
 
 ```
 https://api.frankfurter.app/latest?amount=100&from=USD&to=INR
 ```
 
----
+This request converts **100 USD to INR** and returns the latest exchange rate.
+
+Example Response:
+
+```
+{
+  "amount": 100,
+  "base": "USD",
+  "date": "2026-03-15",
+  "rates": {
+    "INR": 8400
+  }
+}
+```
+
 
 
 ## ▶️ How to Run the Project
