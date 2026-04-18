@@ -95,7 +95,7 @@ Example Response:
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/currency-converter-project.git
+git clone https://github.com/Mr-Ahad-Khan/currency-converter-project.git
 ```
 
 2. Open the folder
